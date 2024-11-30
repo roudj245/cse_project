@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
 @import url('https://fonts.cdnfonts.com/css/5x5-dots');
-
+/*  fonts will be applied after only writing the line of code like this 
+   font-family: 'font'(soit bebas ou dots ), sans-serif ; */
 body {
     margin: 0;
     height: 100vh;
     /* Full viewport height */
-    background: linear-gradient(to right, #243819 5%, #1a1e11 20%, #1a1e11 80%, #243819 95%);
+    background: linear-gradient(to right, #243819 5%, #1a1e11 20%, #1a1e11 80%, #243819 95%); /* background color not to be changed */
 }
