@@ -180,6 +180,77 @@ position: absolute;
 right: 14mm;
 top: 12mm;
 }
+.page3{
+  height: 1000px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex start;
+  position: relative;
+}
+.title3{
+  transform: scale(0.9); /* Réduit à 80% de la taille originale */
+  position: absolute;
+  top: 170px;
+  margin: 6rem;
+  
+
+}
+
+.vid-para{
+  height: 300px;
+  width: 1150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+
+}
+.green{
+  color: #859F3D;
+font-family: "Bebas Neue";
+font-size: 16.800px;
+font-style: normal;
+font-weight: 400;
+line-height: 151.23%; /* 34.999px */
+letter-spacing: 0.926px;
+}
+.paragraph{
+  color: #FFF;
+font-family: "Bebas Neue", sans-serif;
+font-size: 16.800px;
+font-style: normal;
+font-weight: 400;
+line-height: 151.23%;
+letter-spacing: 0.926px;
+
+
+
+}
+.video{
+  margin: 7rem;
+  transform: scale(0.85);
+  position: relative;
+
+}
+.video2{
+  width: 474.586px;
+height: 280.607px;
+flex-shrink: 0;
+border-radius: 41.464px;
+background: #393939;
+position: absolute;
+top: -27px;
+left: -10px;
+}
+.play{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
 
 
 
