@@ -269,42 +269,76 @@ left: -10px;
 
 @media screen and (max-width: 1200px) {
   nav {
-    width: 95%;
-    margin: 8rem auto;
+    width: 78%;
+    margin-left: 4.3rem ;
     padding: 20px 30px;
     margin-top: 15px;
   }
-  .challenge{
-    
+  .logo{
+    transform: scale(0.4);
   }
+  .challenge{
+    transform: scale(0.8);
+    width: 80px;
+  }
+  .text1{
+    font-size: 18px;
+  }
+ 
 
   .page1 {
-    margin: 7rem;
-    flex-wrap: wrap;
+    margin: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
   .video{
-   transform: scale(0.7);
+   transform: scale(0.9);
+   width: 400px;
+   
 
    
   }
-  .vid-para{
-    margin-top: 260px ;
+  .page2{
+    height: 200px;
   }
+  
   .logo{
     transform: scale(0.85);
   }
   .circles{
     transform: scale(0.76);
+    
   }
   .title3{
     display: none;
     height: 50px;
   }
-
-  .page3 {
-    width: 95%;
-    margin: 0 auto;
+  .vid-para{
+   width: 1000px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   
   }
+  .paragraph, .green{
+    font-size: 17px;
+  
+
+
+  }
+  .text5{
+    width: 500px;
+    margin-left: 7rem;
+    height: 300px;
+  }
+  .page3{
+    height: 500px;
+  }
+
+  
 }
 
 @media screen and (max-width: 992px) {
